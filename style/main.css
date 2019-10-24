@@ -3,5 +3,118 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  color: #f0f0f0;
+  font-size: 1em;
+}
+
+#hamming {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  background: #4c8ae7;
+  color: #f0f0f0;
+  padding-top: 5vh;
+}
+
+#hamming .title-container {
+  text-align: center;
+  margin: 2em 0;
+}
+
+#hamming .title-container .title {
+  font-size: 3em;
+}
+
+#hamming .control-btns .hamming-btn {
+  margin: 1em 3em;
+  padding: 0.5em 1em;
+  border: 2px solid #fff;
+  border-radius: 12px;
+  background: transparent;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#hamming .control-btns .hamming-btn:hover {
+  opacity: 0.8;
+}
+
+#hamming .control-btns .active {
+  background: #fff;
+  color: #4c8ae7;
+  border-color: #4c8ae7;
+}
+
+#hamming .hamming-app {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  border: 2px solid #fff;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+#hamming .hamming-app .input-container {
+  margin: 1em 0;
+  font-size: 1.2em;
+}
+
+#hamming .hamming-app .input-container label {
+  display: inline-block;
+  min-width: 50px;
+}
+
+#hamming .hamming-app .input-container input {
+  border: 2px solid #fff;
+  border-radius: 12px;
+  outline: none;
+  color: #000;
+  text-indent: 8px;
+  padding: 2px 0;
+}
+
+#hamming .hamming-app .input-container input:focus {
+  border-color: darkblue;
+}
+
+#hamming .hamming-app .execute-btn-container button {
+  margin: 1em 3em;
+  padding: 0.5em 1em;
+  border: 2px solid #fff;
+  border-radius: 12px;
+  background: transparent;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#hamming .hamming-app .execute-btn-container button:hover {
+  opacity: 0.8;
+}
+
+#hamming .hamming-app .info-container {
+  display: none;
+}
+
+#hamming .hamming-app .info-container .messages-container {
+  margin: 1em 0;
+}
+
+#hamming .hamming-app .info-container .messages-container p {
+  margin: 0.6em;
+  font-size: 1.2em;
+}
+
+#hamming .hamming-app .info-container .result-container {
+  margin: 1em 0;
+}
+
+#hamming .hamming-app .info-container .result-container p {
+  margin: 0.6em;
+  font-size: 1.2em;
+}
+
+#hamming .hamming-app .hamming-decode {
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */
